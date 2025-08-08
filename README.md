@@ -4,14 +4,14 @@ An interactive Retrieval-Augmented Generation (RAG) application built with Strea
 Upload multiple documents (PDF, DOCX, TXT) and chat with them — powered by semantic search + LLMs.
 
 ## Features
-
+```
 📂 Multiple File Upload — PDF, DOCX, and TXT support
 📝 Automatic Text Extraction — Extracts and processes document content
 🧠 Semantic Search with FAISS — Retrieves the most relevant chunks
 🤖 LLM-powered Responses — Uses Cohere's command-r-plus model for answers
 💬 Chat Interface — Ask questions, get context-based answers instantly
 🎨 Styled UI — Custom CSS for clean sections and collapsible previews
-
+```
 ## File Structure
 
 ```
