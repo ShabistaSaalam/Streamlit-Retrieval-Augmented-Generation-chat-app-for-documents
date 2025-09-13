@@ -110,7 +110,7 @@ def retrieve_chunks(question, index, chunks, top_k=5):
     return [chunks[i] for i in indices[0]]
 
 def generate_answer(question, context):
-    prompt = f"Use the following context to answer the question:\n\n{context}\n\nQuestion: {question}\nAnswer:"
+    prompt = f"Answer the question using ONLY the information from the context below.If the answer is not present in the context, reply: 'I do not have enough information to answer that question.':\n\n{context}\n\nQuestion: {question}\nAnswer:"
     try:
         response = co.chat(
             model="command-r-plus",

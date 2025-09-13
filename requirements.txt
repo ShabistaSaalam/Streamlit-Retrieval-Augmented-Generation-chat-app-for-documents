@@ -1,9 +1,7 @@
 streamlit
 python-docx
 PyMuPDF
-pytesseract
-opencv-python-headless
-sentence-transformers
-faiss-cpu
+sentence-transformers 
+faiss-cpu 
 python-dotenv
 cohere
